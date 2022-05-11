@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "40763ea1-5dce-4946-b24a-fc7471050428",
+		"name": "获取图书接口",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://stuapi.ysdjypt.com/api/GetBooks?rows=10&page=1&orderBy=PublishDate&name&token=42fef9b4-6759-4943-a892-b562750e6ab5",
+					"protocol": "http",
+					"host": [
+						"stuapi",
+						"ysdjypt",
+						"com"
+					],
+					"path": [
+						"api",
+						"GetBooks"
+					],
+					"query": [
+						{
+							"key": "rows",
+							"value": "10"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "orderBy",
+							"value": "PublishDate"
+						},
+						{
+							"key": "name",
+							"value": null
+						},
+						{
+							"key": "token",
+							"value": "42fef9b4-6759-4943-a892-b562750e6ab5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://stuapi.ysdjypt.com/api/GetBooks?rows=10&page=1&orderBy=PublishDate&name&token=42fef9b4-6759-4943-a892-b562750e6ab5",
+							"protocol": "http",
+							"host": [
+								"stuapi",
+								"ysdjypt",
+								"com"
+							],
+							"path": [
+								"api",
+								"GetBooks"
+							],
+							"query": [
+								{
+									"key": "rows",
+									"value": "10"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "orderBy",
+									"value": "PublishDate"
+								},
+								{
+									"key": "name",
+									"value": null
+								},
+								{
+									"key": "token",
+									"value": "42fef9b4-6759-4943-a892-b562750e6ab5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Server",
+							"value": "Microsoft-IIS/8.5"
+						},
+						{
+							"key": "X-AspNetMvc-Version",
+							"value": "5.2"
+						},
+						{
+							"key": "X-AspNet-Version",
+							"value": "4.0.30319"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "POST,GET,OPTIONS"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "origin,x-requested-with,content-type"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 11 May 2022 11:15:53 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1307"
+						}
+					],
+					"cookie": [],
+					"body": "{\"total\":43,\"rows\":[{\"Id\":\"5610\",\"Title\":\"HTML4.0网页制作：HTML4.0使用详解\",\"Author\":\"王玮\",\"PublishDate\":\"1999\\/5\\/1 0:00:00\",\"ISBN\":\"9787115078384\",\"UnitPrice\":\"36.0000\",\"Clicks\":\"0\",\"CateName\":\"HTML XML\",\"PubName\":\"人民邮电出版社\",\"RowNum\":\"1\"},{\"Id\":\"5595\",\"Title\":\"HTML & ASP网页制作教程\",\"Author\":\"林义证\",\"PublishDate\":\"2000\\/9\\/1 0:00:00\",\"ISBN\":\"9787113037963\",\"UnitPrice\":\"43.0000\",\"Clicks\":\"0\",\"CateName\":\"HTML XML\",\"PubName\":\"中国铁道出版社\",\"RowNum\":\"2\"},{\"Id\":\"6075\",\"Title\":\"Visual Basic 6.0中文版编程方法详解 含盘\",\"Author\":\"李鸿吉编著\",\"PublishDate\":\"2000\\/10\\/1 0:00:00\",\"ISBN\":\"9787030090317\",\"UnitPrice\":\"75.0000\",\"Clicks\":\"0\",\"CateName\":\"Basic VB VB Script\",\"PubName\":\"科学出版社\",\"RowNum\":\"3\"},{\"Id\":\"5625\",\"Title\":\"DHTML 动态网页设计与制作\",\"Author\":\"清源计算机工作室 编著\",\"PublishDate\":\"2001\\/1\\/1 0:00:00\",\"ISBN\":\"9787900043962\",\"UnitPrice\":\"33.0000\",\"Clicks\":\"0\",\"CateName\":\"HTML XML\",\"PubName\":\"未知\",\"RowNum\":\"4\"},{\"Id\":\"5190\",\"Title\":\"JSP动态网站技术入门与提高（附光盘）\",\"Author\":\"孙晓龙,赵莉编著\",\"PublishDate\":\"2001\\/7\\/1 0:00:00\",\"ISBN\":\"9787115094094\",\"UnitPrice\":\"39.0000\",\"Clicks\":\"0\",\"CateName\":\"JSP\",\"PubName\":\"人民邮电出版社\",\"RowNum\":\"5\"},{\"Id\":\"5205\",\"Title\":\"精通JSP 编程技术(附光盘)\",\"Author\":\"武延军\",\"PublishDate\":\"2001\\/8\\/1 0:00:00\",\"ISBN\":\"9787115095480\",\"UnitPrice\":\"48.0000\",\"Clicks\":\"0\",\"CateName\":\"JSP\",\"PubName\":\"人民邮电出版社\",\"RowNum\":\"6\"},{\"Id\":\"6015\",\"Title\":\"Visual Basic 6.0 时尚编程百例（含1CD）\",\"Author\":\"网冠科技 编著\",\"PublishDate\":\"2002\\/1\\/1 0:00:00\",\"ISBN\":\"9787111023159\",\"UnitPrice\":\"36.0000\",\"Clicks\":\"0\",\"CateName\":\"Basic VB VB Script\",\"PubName\":\"机械工业出版社\",\"RowNum\":\"7\"},{\"Id\":\"5670\",\"Title\":\"DHTML网页开发实例教程\",\"Author\":\"金坚信 曾李丹 编著\",\"PublishDate\":\"2002\\/1\\/1 0:00:00\",\"ISBN\":\"9787111096702\",\"UnitPrice\":\"25.0000\",\"Clicks\":\"0\",\"CateName\":\"HTML XML\",\"PubName\":\"机械工业出版社\",\"RowNum\":\"8\"},{\"Id\":\"5550\",\"Title\":\"XML网络编程实例(附赠光盘)\",\"Author\":\"马睿 王鹏 雷富强 编著\",\"PublishDate\":\"2002\\/3\\/1 0:00:00\",\"ISBN\":\"9787900038432\",\"UnitPrice\":\"35.0000\",\"Clicks\":\"0\",\"CateName\":\"HTML XML\",\"PubName\":\"未知\",\"RowNum\":\"9\"},{\"Id\":\"5700\",\"Title\":\"Java与模式(含盘)\",\"Author\":\"阎宏 编著\",\"PublishDate\":\"2002\\/10\\/1 0:00:00\",\"ISBN\":\"9787505380004\",\"UnitPrice\":\"88.0000\",\"Clicks\":\"0\",\"CateName\":\"Java Script Java\",\"PubName\":\"电子工业出版社\",\"RowNum\":\"10\"}]}"
+				}
+			]
+		}
+	]
+}
